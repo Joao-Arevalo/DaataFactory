@@ -1,0 +1,9 @@
+{
+	"name": "jnarcizo-datafactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2831873b-a1dd-40e1-850d-676dcd5f7d4c",
+		"tenantId": "70d82a4a-ba3f-49c4-ade2-0fb9e4c699e9"
+	}
+}
