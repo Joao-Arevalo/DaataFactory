@@ -1,0 +1,32 @@
+{
+	"name": "PutpudFolderFilesCopy_ADLS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LINK_ADLS_DATAAFACTORY",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"ArchivoOutpud": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@dataset().ArchivoOutpud",
+					"type": "Expression"
+				},
+				"folderPath": "capa_bronce",
+				"fileSystem": "jnarcizo"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
