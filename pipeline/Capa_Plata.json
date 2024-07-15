@@ -1,0 +1,28 @@
+{
+	"name": "Capa_Plata",
+	"properties": {
+		"activities": [
+			{
+				"name": "Capa_Plata",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/myj020624@outlook.com/Capa Plata"
+				},
+				"linkedServiceName": {
+					"referenceName": "CapaPlata",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": []
+	}
+}
