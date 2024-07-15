@@ -5,8 +5,38 @@
 		"factoryName": {
 			"value": "jnarcizo-datafactory"
 		},
+		"AzureDatabricks1_accessToken": {
+			"value": ""
+		},
+		"AzureDatabricks_DataFactory_accessToken": {
+			"value": ""
+		},
+		"Azure_CapaOro_accessToken": {
+			"value": ""
+		},
+		"CapaPlata_accessToken": {
+			"value": ""
+		},
+		"Capa_Oro_accessToken": {
+			"value": ""
+		},
 		"LINK_ADLS_DATAAFACTORY_accountKey": {
 			"value": ""
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "0714-185528-r202hbdu"
+		},
+		"AzureDatabricks_DataFactory_properties_typeProperties_existingClusterId": {
+			"value": "0714-185528-r202hbdu"
+		},
+		"Azure_CapaOro_properties_typeProperties_existingClusterId": {
+			"value": "0714-185528-r202hbdu"
+		},
+		"CapaPlata_properties_typeProperties_existingClusterId": {
+			"value": "0714-185528-r202hbdu"
+		},
+		"Capa_Oro_properties_typeProperties_existingClusterId": {
+			"value": "0714-185528-r202hbdu"
 		},
 		"LINK_ADLS_DATAAFACTORY_properties_typeProperties_url": {
 			"value": "https://narcizo123.dfs.core.windows.net/"

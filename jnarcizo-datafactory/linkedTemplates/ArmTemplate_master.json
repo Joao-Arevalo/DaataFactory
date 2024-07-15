@@ -7,9 +7,49 @@
 			"metadata": "Nombre de instancia de Data Factory",
 			"defaultValue": "jnarcizo-datafactory"
 		},
+		"AzureDatabricks1_accessToken": {
+			"type": "secureString",
+			"metadata": "Cadena protegida para \"accessToken\"de \"AzureDatabricks1\""
+		},
+		"AzureDatabricks_DataFactory_accessToken": {
+			"type": "secureString",
+			"metadata": "Cadena protegida para \"accessToken\"de \"AzureDatabricks_DataFactory\""
+		},
+		"Azure_CapaOro_accessToken": {
+			"type": "secureString",
+			"metadata": "Cadena protegida para \"accessToken\"de \"Azure_CapaOro\""
+		},
+		"CapaPlata_accessToken": {
+			"type": "secureString",
+			"metadata": "Cadena protegida para \"accessToken\"de \"CapaPlata\""
+		},
+		"Capa_Oro_accessToken": {
+			"type": "secureString",
+			"metadata": "Cadena protegida para \"accessToken\"de \"Capa_Oro\""
+		},
 		"LINK_ADLS_DATAAFACTORY_accountKey": {
 			"type": "secureString",
 			"metadata": "Cadena protegida para \"accountKey\"de \"LINK_ADLS_DATAAFACTORY\""
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"type": "string",
+			"defaultValue": "0714-185528-r202hbdu"
+		},
+		"AzureDatabricks_DataFactory_properties_typeProperties_existingClusterId": {
+			"type": "string",
+			"defaultValue": "0714-185528-r202hbdu"
+		},
+		"Azure_CapaOro_properties_typeProperties_existingClusterId": {
+			"type": "string",
+			"defaultValue": "0714-185528-r202hbdu"
+		},
+		"CapaPlata_properties_typeProperties_existingClusterId": {
+			"type": "string",
+			"defaultValue": "0714-185528-r202hbdu"
+		},
+		"Capa_Oro_properties_typeProperties_existingClusterId": {
+			"type": "string",
+			"defaultValue": "0714-185528-r202hbdu"
 		},
 		"LINK_ADLS_DATAAFACTORY_properties_typeProperties_url": {
 			"type": "string",
@@ -42,8 +82,38 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
+					"AzureDatabricks1_accessToken": {
+						"value": "[parameters('AzureDatabricks1_accessToken')]"
+					},
+					"AzureDatabricks_DataFactory_accessToken": {
+						"value": "[parameters('AzureDatabricks_DataFactory_accessToken')]"
+					},
+					"Azure_CapaOro_accessToken": {
+						"value": "[parameters('Azure_CapaOro_accessToken')]"
+					},
+					"CapaPlata_accessToken": {
+						"value": "[parameters('CapaPlata_accessToken')]"
+					},
+					"Capa_Oro_accessToken": {
+						"value": "[parameters('Capa_Oro_accessToken')]"
+					},
 					"LINK_ADLS_DATAAFACTORY_accountKey": {
 						"value": "[parameters('LINK_ADLS_DATAAFACTORY_accountKey')]"
+					},
+					"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+						"value": "[parameters('AzureDatabricks1_properties_typeProperties_existingClusterId')]"
+					},
+					"AzureDatabricks_DataFactory_properties_typeProperties_existingClusterId": {
+						"value": "[parameters('AzureDatabricks_DataFactory_properties_typeProperties_existingClusterId')]"
+					},
+					"Azure_CapaOro_properties_typeProperties_existingClusterId": {
+						"value": "[parameters('Azure_CapaOro_properties_typeProperties_existingClusterId')]"
+					},
+					"CapaPlata_properties_typeProperties_existingClusterId": {
+						"value": "[parameters('CapaPlata_properties_typeProperties_existingClusterId')]"
+					},
+					"Capa_Oro_properties_typeProperties_existingClusterId": {
+						"value": "[parameters('Capa_Oro_properties_typeProperties_existingClusterId')]"
 					},
 					"LINK_ADLS_DATAAFACTORY_properties_typeProperties_url": {
 						"value": "[parameters('LINK_ADLS_DATAAFACTORY_properties_typeProperties_url')]"
